@@ -7,7 +7,7 @@ const Resources = () => (
     <ul className="resources-list">
       {[
           {
-              name: "Health EcoSystem",
+              name: "Health Ecosystem (HE)",
               url:"https://remarkable-jalebi-0f1b49.netlify.app/",
           },
         {
