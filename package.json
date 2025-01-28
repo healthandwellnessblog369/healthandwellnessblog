@@ -2,6 +2,7 @@
   "name": "health-wellness-blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://famous-lily-9413b2.netlify.app/",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.3.1",
