@@ -29,7 +29,7 @@ const PrivacyPolicy = () => (
 
     <h2>Contact Us</h2>
     <p>
-      If you have any questions about this Privacy Policy, please contact us at <strong>info@example.com</strong>.
+      If you have any questions about this Privacy Policy, please contact us at <strong>healthandwellness.blog369@gmail.com</strong>.
     </p>
   </div>
 );

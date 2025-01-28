@@ -4,7 +4,7 @@ const About = () => (
   <div>
     <h2>About Us</h2>
     <p>This blog focuses on health and wellness topics.</p>
-    <p>For inquiries, email us at: <strong>info@example.com</strong></p>
+    <p>For inquiries, email us at: <strong>healthandwellness.blog369@gmail.com</strong></p>
   </div>
 );
 
