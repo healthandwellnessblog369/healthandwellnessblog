@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin/
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://famous-lily-9413b2.netlify.app/sitemap.xml
