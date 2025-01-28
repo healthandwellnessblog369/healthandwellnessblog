@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import articles from "./articles";
+import OGTags from './OGTags';
+
 
 const BlogPage = () => {
   const { slug } = useParams();
@@ -13,6 +15,18 @@ const BlogPage = () => {
 
   return (
     <div className="blog-container">
+      {/* Open Graph and Twitter Meta Tags */}
+      <OGTags
+        type="article"
+        title={article.title}
+        description={
+          article.metaDescription ||
+          `Read more about ${article.title} and explore our health and wellness resources.`
+        }
+        image={article.image || "https://famous-lily-9413b2.netlify.app/images/favico.png"}
+        url={`https://famous-lily-9413b2.netlify.app/${article.slug}`} // Adjust URL dynamically
+      />
+
       {/* Update the page title and meta description dynamically */}
       <Helmet>
         <title>{article.title} | Health and Wellness Blog</title>
@@ -40,7 +54,8 @@ const BlogPage = () => {
                 "url": "https://example.com/logo.png", // Update with your logo URL
               },
             },
-            "description": article?.metaDescription || `Read about ${article.title}.`,
+            "description":
+              article?.metaDescription || `Read about ${article.title}.`,
           })}
         </script>
       </Helmet>
@@ -66,9 +81,7 @@ const BlogPage = () => {
           )}
           {section.adSpace && (
             <div className="adspace-mobile">
-              <p>
-              Ad Space
-              </p>
+              <p>Ad Space</p>
             </div>
           )}
         </div>

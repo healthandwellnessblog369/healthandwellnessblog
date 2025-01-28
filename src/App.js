@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 import NotFound from "./pages/NotFound";
 import TermsOfUse from "./pages/TermsOfUse";
 import AffiliateLinksNotice from "./pages/AffiliateLinksNotice";
+import OGTags from "./components/OGTags";
 
 const App = () => (
   <>
@@ -54,6 +55,7 @@ const App = () => (
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-of-use" element={<TermsOfUse />} />
               <Route path="/affiliate-links-notice" element={<AffiliateLinksNotice />} />
+              <Route path="/ogtags" element={<OGTags />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
