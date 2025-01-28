@@ -1,59 +1,43 @@
 import React from "react";
 
+// Resources Component to display external health and wellness links
 const Resources = () => (
-  <div style={{ padding: "20px", maxWidth: "800px", margin: "0 auto", backgroundColor: "#fff", boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)", borderRadius: "8px" }}>
-    <h2 style={{ color: "#333", marginBottom: "20px" }}>Resources</h2>
-    <ul style={{ listStyleType: "none", padding: "0" }}>
-      <li style={{ marginBottom: "10px" }}>
-        <a
-          href="https://www.cdc.gov"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none", color: "#007bff", fontSize: "16px" }}
-        >
-          Centers for Disease Control and Prevention (CDC)
-        </a>
-      </li>
-      <li style={{ marginBottom: "10px" }}>
-        <a
-          href="https://www.mayoclinic.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none", color: "#007bff", fontSize: "16px" }}
-        >
-          Mayo Clinic
-        </a>
-      </li>
-      <li style={{ marginBottom: "10px" }}>
-        <a
-          href="https://www.nih.gov"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none", color: "#007bff", fontSize: "16px" }}
-        >
-          National Institutes of Health (NIH)
-        </a>
-      </li>
-      <li style={{ marginBottom: "10px" }}>
-        <a
-          href="https://www.who.int"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none", color: "#007bff", fontSize: "16px" }}
-        >
-          World Health Organization (WHO)
-        </a>
-      </li>
-      <li style={{ marginBottom: "10px" }}>
-        <a
-          href="https://www.healthline.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none", color: "#007bff", fontSize: "16px" }}
-        >
-          Healthline
-        </a>
-      </li>
+  <div className="resources-container">
+    <h2 className="resources-title">Resources</h2>
+    <ul className="resources-list">
+      {[
+        {
+          name: "Centers for Disease Control and Prevention (CDC)",
+          url: "https://www.cdc.gov",
+        },
+        {
+          name: "Mayo Clinic",
+          url: "https://www.mayoclinic.org",
+        },
+        {
+          name: "National Institutes of Health (NIH)",
+          url: "https://www.nih.gov",
+        },
+        {
+          name: "World Health Organization (WHO)",
+          url: "https://www.who.int",
+        },
+        {
+          name: "Healthline",
+          url: "https://www.healthline.com",
+        },
+      ].map((resource, index) => (
+        <li key={index} className="resources-list-item">
+          <a
+            href={resource.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resources-link"
+          >
+            {resource.name}
+          </a>
+        </li>
+      ))}
     </ul>
   </div>
 );

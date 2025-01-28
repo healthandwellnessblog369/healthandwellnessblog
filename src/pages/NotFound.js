@@ -1,9 +1,10 @@
 import React from "react";
 
+// NotFound Component for handling 404 errors
 const NotFound = () => (
-  <div style={{ padding: "20px", textAlign: "center" }}>
-    <h1>404</h1>
-    <p>Page Not Found</p>
+  <div className="not-found-container">
+    <h1 className="not-found-title">404</h1>
+    <p className="not-found-message">Page Not Found</p>
   </div>
 );
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://yourdomain.com/</loc>
+      <lastmod>2025-01-27</lastmod>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://yourdomain.com/blogs</loc>
+      <lastmod>2025-01-27</lastmod>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://yourdomain.com/blogs/gut-health</loc>
+      <lastmod>2025-01-27</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://yourdomain.com/blogs/hormonal-cycle-syncing</loc>
+      <lastmod>2025-01-27</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://yourdomain.com/blogs/diet-mental-health</loc>
+      <lastmod>2025-01-27</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://yourdomain.com/blogs/10-best-superfoods</loc>
+      <lastmod>2025-01-27</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://yourdomain.com/blogs/popular-diets</loc>
+      <lastmod>2025-01-27</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <!-- Add all other pages similarly -->
+</urlset>
