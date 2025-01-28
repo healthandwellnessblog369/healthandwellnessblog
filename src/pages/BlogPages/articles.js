@@ -47,6 +47,7 @@ const articles = {
     },
     "diet-mental-health": {
       title: "The Connection Between Diet and Mental Health",
+      metaDescription: "Explore the profound link between diet and mental health. Discover how proper nutrition, hydration, and gut health impact mood, focus, and emotional well-being.",
       image: "/images/mental_health.png",
       sections: [
         {
@@ -69,6 +70,7 @@ const articles = {
     },
     "10-best-superfoods": {
         title: "The 10 Best Superfoods for Your Health",
+        metaDescription: "Learn about the top 10 superfoods that can boost your health, from blueberries to quinoa, and discover their benefits for brain, heart, and overall well-being.",
         image: "/images/superfoods.png",
         sections: [
             {
@@ -120,6 +122,7 @@ const articles = {
 
     "popular-diets": {
       title: "A Look at 3 Popular Diets and Their Merits",
+      metaDescription: "Compare the Mediterranean, Keto, and Plant-Based diets. Discover their health benefits and find the right diet to suit your lifestyle and wellness goals.",
       image: "/images/diet.png",
       sections: [
         {
