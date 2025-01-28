@@ -66,7 +66,9 @@ const BlogPage = () => {
           )}
           {section.adSpace && (
             <div className="adspace-mobile">
-              <p>Ad Space</p>
+              <p>
+              Ad Space
+              </p>
             </div>
           )}
         </div>

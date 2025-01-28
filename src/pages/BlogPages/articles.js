@@ -5,7 +5,7 @@ const articles = {
       image: "/images/gut_health.png",
       sections: [
         {
-          content: `Gut health plays a pivotal role in overall well-being, as the gut biome—the community of trillions of microorganisms in your digestive system—affects everything from digestion to immunity and mental health.`,
+          content: `Gut health plays a pivotal role in overall well-being, as the gut biome—the community of trillions of microorganisms in your digestive system—affects everything from digestion to immunity and mental health.  <a href="https://amzn.to/3PPoQCa" target="_blank" rel="noopener noreferrer">Learn more about gut health products here.</a>`,
           adSpace: true,
         },
         {
