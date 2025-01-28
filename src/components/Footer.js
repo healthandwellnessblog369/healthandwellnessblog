@@ -21,6 +21,18 @@ const Footer = () => (
       >
         Privacy Policy
       </Link>
+      <Link
+        to="/terms-of-use"
+        style={{ textDecoration: "none", color: "blue" }}
+      >
+        Terms Of Use
+      </Link>
+      <Link
+        to="/affiliate-links-notice"
+        style={{ textDecoration: "none", color: "blue" }}
+      >
+        Notice of Use of Affiliate Links and Paid Advertising
+      </Link>
     </p>
   </footer>
 );

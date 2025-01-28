@@ -11,6 +11,8 @@ import Adspace from "./components/Adspace";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import { Helmet } from "react-helmet";
 import NotFound from "./pages/NotFound";
+import TermsOfUse from "./pages/TermsOfUse";
+import AffiliateLinksNotice from "./pages/AffiliateLinksNotice";
 
 const App = () => (
   <>
@@ -50,6 +52,8 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/blogs/:slug" element={<BlogPage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-of-use" element={<TermsOfUse />} />
+              <Route path="/affiliate-links-notice" element={<AffiliateLinksNotice />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
@@ -77,4 +81,3 @@ const App = () => (
 );
 
 export default App;
-
