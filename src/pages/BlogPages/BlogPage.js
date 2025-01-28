@@ -28,10 +28,10 @@ const BlogPage = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
-            "headline": article.title,
+            "headline": article?.title || "Default Title",
             "author": "Health and Wellness Blog",
             "datePublished": "2025-01-27", // Replace dynamically if needed
-            "image": `${article.image}`, // Update base URL
+            "image": article?.image || "https://example.com/default-image.jpg"
             "publisher": {
               "@type": "Organization",
               "name": "Health and Wellness Blog",
@@ -40,7 +40,7 @@ const BlogPage = () => {
                 "url": "https://example.com/logo.png", // Update with your logo URL
               },
             },
-            "description": article.metaDescription || `Read about ${article.title}.`,
+            "description": article?.metaDescription || `Read about ${article.title}.`,
           })}
         </script>
       </Helmet>
