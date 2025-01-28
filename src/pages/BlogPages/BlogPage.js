@@ -46,13 +46,13 @@ const BlogPage = () => {
             "headline": article?.title || "Default Title",
             "author": "Health and Wellness Blog",
             "datePublished": "2025-01-27", // Replace dynamically if needed
-            "image": article?.image || "https://example.com/default-image.jpg",
+            "image": article?.image || "https://famous-lily-9413b2.netlify.app/images/favico.png",
             "publisher": {
               "@type": "Organization",
               "name": "Health and Wellness Blog",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://example.com/logo.png", // Update with your logo URL
+                "url": "https://famous-lily-9413b2.netlify.app/images/favico.png", // Update with your logo URL
               },
             },
             "description":
