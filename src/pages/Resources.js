@@ -6,6 +6,10 @@ const Resources = () => (
     <h2 className="resources-title">Resources</h2>
     <ul className="resources-list">
       {[
+          {
+              name: "Health EcoSystem",
+              url:"https://remarkable-jalebi-0f1b49.netlify.app/",
+          },
         {
           name: "Centers for Disease Control and Prevention (CDC)",
           url: "https://www.cdc.gov",
