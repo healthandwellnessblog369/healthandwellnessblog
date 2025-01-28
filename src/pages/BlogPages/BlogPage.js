@@ -2,7 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import articles from "./articles";
-import OGTags from './OGTags';
+import OGTags from "../../components/OGTags";
+
 
 
 const BlogPage = () => {
