@@ -37,7 +37,7 @@ const Adspace = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://m.media-amazon.com/images/I/81gepf1eMqL._AC_UY218_.jpg"
+            src="https://m.media-amazon.com/images/I/71YO-q1eS-L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
             alt="Amazon Product"
             style={{ width: "100%", maxWidth: "300px" }}
           />
