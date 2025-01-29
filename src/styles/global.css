@@ -93,7 +93,20 @@ p {
     text-align: center;
     padding: 20px;
     margin-top: 10px;
+    margin: 0;
 }
+
+.adspace-mobile img {
+    max-width: 100%; /* Ensures the image scales with the container */
+    height: auto; /* Maintains the image aspect ratio */
+    display: block; /* Prevents inline space around the image */
+    margin: 0 auto; /* Centers the image */
+  }
+
+  .adspace-mobile p {
+    margin-bottom: 10px; /* Adds space between the text and image */
+    font-size: 0.9em; /* Adjusts text size for mobile */
+  }
 
 /* Desktop layout */
 .main-content {
