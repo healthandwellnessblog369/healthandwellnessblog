@@ -82,20 +82,24 @@ const BlogPage = () => {
           )}
           {section.adSpace && (
             <div className="adspace-mobile">
-              <div>
-                <a
-                  href="https://www.amazon.com/dp/B07ZS3T3PM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2NN8UGEPQAGAP&linkCode=tr1&tag=healthand0f57-20&linkId=amzn1.campaign.2NN8UGEPQAGAP_1738187052541"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://m.media-amazon.com/images/I/71YO-q1eS-L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
-                    alt="Amazon Product"
-                    style={{ width: "100%", maxWidth: "300px" }}
-                  />
-                </a>
-              </div>
+              <a
+                href="https://www.amazon.com/dp/B07ZS3T3PM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2NN8UGEPQAGAP&linkCode=tr1&tag=healthand0f57-20&linkId=amzn1.campaign.2NN8UGEPQAGAP_1738187052541"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><p>Ad Space</p></a>
+                    <div style={{ marginTop: "20px" }}>
+              <a
+                href="https://www.amazon.com/dp/B07ZS3T3PM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2NN8UGEPQAGAP&linkCode=tr1&tag=healthand0f57-20&linkId=amzn1.campaign.2NN8UGEPQAGAP_1738187052541"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://m.media-amazon.com/images/I/71YO-q1eS-L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                  alt="Amazon Product"
+                />
+              </a>
             </div>
+          </div>
           )}
         </div>
       ))}
